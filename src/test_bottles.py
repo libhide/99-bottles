@@ -41,7 +41,7 @@ class BottlesTest(unittest.TestCase):
                     "no more bottles of beer.\n"
                     "Go to the store and buy some more, "
                     "99 bottles of beer on the wall.\n")
-        self.assertEqual(expected, Bottles().verse(1))
+        self.assertEqual(expected, Bottles().verse(0))
 
     @unittest.skip
     def test_a_couple_verses(self):
@@ -57,7 +57,7 @@ class BottlesTest(unittest.TestCase):
         self.assertEqual(expected, Bottles().verses(99, 98))
 
     @unittest.skip
-    def test_a_couple_verses(self):
+    def test_a_few_verses(self):
         expected = ("2 bottles of beer on the wall, "
                     "2 bottles of beer.\n"
                     "Take one down and pass it around, "
