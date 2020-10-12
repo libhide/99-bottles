@@ -8,21 +8,21 @@ The song is simultaneously easy to understand and full of hidden complexity, whi
 
 ## Getting the excercise
 
-1. Make sure you have python installed
+1. Make sure you have ruby installed
 2. Clone this repo and you're set!
 
 The directory structure for the excercise should look like this:
 
 ```
-+-- src
-|   +-- bottles.py
-|   +-- test_bottles.py
-
++-- lib
+|   +-- bottles.rb
++-- test
+|   +-- bottles_test.rb
 ```
 
 ## Doing the excercise
 
-To run the test suite, run `python src/test_bottles.py`.
+To run the test suite, run `roby test/bottles_test.rb`.
 
 The test suite contains one failing test, and many skipped tests. Your goal is to write code that passes all of the tests. Follow this protocol:
 
